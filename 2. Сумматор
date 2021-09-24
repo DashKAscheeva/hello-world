@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n1; int n2; int res;
+    cout << "Введите первое число" << endl;
+    cin >> n1;
+    cout << "Введите второе число" << endl;
+    cin >> n2;
+    res = n1 + n2;
+    cout << n1 << "+" << n2 << "=" << res << endl;
+    return 0;
+}
