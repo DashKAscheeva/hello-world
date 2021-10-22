@@ -1,0 +1,58 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int i; 
+    for (i=0; i<15; i++) 
+    {
+        switch(i) {
+            case(0):
+            cout << "Сообщение №1"<<endl;
+            break;
+            case(1):
+            cout << "Сообщение №2"<<endl;
+            break;
+            case(2):
+            cout << "Сообщение №3"<<endl;
+            break;
+            case(3):
+            cout << "Сообщение №4"<<endl;
+            break;
+            case(4):
+            cout << "Сообщение №5"<<endl;
+            break;
+            case(5):
+            cout << "Сообщение №6"<<endl;
+            break;
+            case(6):
+            cout << "Сообщение №7"<<endl;
+            break;
+            case(7):
+            cout << "Сообщение №8"<<endl;
+            break;
+            case(8):
+            cout << "Сообщение №9"<<endl;
+            break;
+            case(9):
+            cout << "Сообщение №10"<<endl;
+            break;
+            case(10):
+            cout << "Сообщение №11"<<endl;
+            break;
+            case(11):
+            cout << "Сообщение №12"<<endl;
+            break;
+            case(12):
+            cout << "Сообщение №13"<<endl;
+            break;
+            case(13):
+            cout << "Сообщение №14"<<endl;
+            break;
+            case(14):
+            cout << "Сообщение №15"<<endl;
+            break;
+        }
+    }
+    return 0;
+}
